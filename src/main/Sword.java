@@ -8,7 +8,7 @@ import imgs.Img;
 class Sword extends ControllableDirection implements Entity{
   private Entity wielder;
   private double weaponRadiant = 0;
-  boolean isMon = false;
+  boolean isMon = false;//use to identfied is monster's swords or players
   public double distance(){//if it is monster, the distance should be 1.5d but for player it only need to be 0.8d
     if(isMon){
       return 1.5;
