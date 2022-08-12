@@ -15,7 +15,12 @@ class Sword extends ControllableDirection implements Entity{
     }
     return 0.8d;
   }
-  public double speed(){ return 0.2d; }
+  public double speed(){
+    if(isMon){
+      return 0.4d;
+    }
+    return 0.2d;
+  }
   Sword(Entity wielder){ this.wielder=wielder; }
   public Point location(){ 
     var dir = new Point(Math.sin(weaponRadiant),Math.cos(weaponRadiant));

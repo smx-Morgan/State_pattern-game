@@ -67,7 +67,7 @@ record Phase(Model model, Controller controller){
     Sword mon_s = new Sword(mon);
     mon.setSword(mon_s);
     mon_s.setMon(true);
-    mon_s.set(Direction::SwordLeft).run();
+    mon_s.set(Direction::left).run();
     var m = new Model(){
       List<Entity> entities = List.of(c,s,mon,mon_s);
       public Camera camera(){ return c; }
