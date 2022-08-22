@@ -7,7 +7,7 @@ In this game there is serval state for monster . when you start the game the mon
 
 (This the screen for this game)
 
-![](.\src\imgs\picture of game.png)
+![](src/imgs/picture of game.png)
 
 you can use wsda and op to control this game or set it by your self.
 
