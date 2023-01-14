@@ -12,4 +12,4 @@ In this game there is serval state for monster . when you start the game the mon
 you can use wsda and op to control this game or set it by your self.
 
 in level 3 there is a boss using sword to kill you.
-(form VUW university swen 225 class)
+( all test by smx)
